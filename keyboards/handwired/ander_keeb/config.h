@@ -22,6 +22,13 @@
 #define ENCODER_RESOLUTIONS { 4, 4, 4, 4 }
 
 
+#define DIP_SWITCH_MATRIX_GRID { {2,14}, {2,15}, {2,16},\
+                                 {3,14}, {3,15}, {3,16},\
+                                 {4,14}, {4,15}, {4,16},\
+                                 {5,14}, {5,15}, {5,16} }
+
+
+
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
